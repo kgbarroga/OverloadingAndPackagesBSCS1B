@@ -51,5 +51,14 @@ public class App {
         System.out.println("Overloading Methods");
         System.out.println("The sum of 10 and 68 is " + App.computeSum(10, 68));
         System.out.println("The sum of 10 and 20 and 30 is " + App.computeSum(10, 20, 30));
+
+        /**
+         * Invoking Overloaded Constructors
+         */
+        System.out.println("------------------------------");
+        System.out.println("Invoking Overloaded Constructors");
+
+        Pen p1 = new Pen("Uni Pin");
+        Pen p2 = new Pen(100);
     }
 }
